@@ -6,16 +6,16 @@
 
 
 import Foundation
-// 1. Импортируем библиотеки:
 import OpenAPIRuntime
 import OpenAPIURLSession
 
 
 typealias NearestStations = Components.Schemas.Stations
+
 protocol NearestStationsServiceProtocol {
- 
   func getNearestStations(lat: Double, lng: Double, distance: Int) async throws -> NearestStations
 }
+
 final class NearestStationsService: NearestStationsServiceProtocol {
   private let client: Client
   private let apikey: String
