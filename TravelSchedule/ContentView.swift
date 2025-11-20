@@ -21,12 +21,12 @@ struct ContentView: View {
                   
         //testFetchStations()
         //testFetchSchedualBetweenStations()
-        //testFetchStationSchedule()
-        //testFetchRouteStations()
+       // testFetchStationSchedule()
+      //  testFetchRouteStations()
         //testFetchNearestCity()
-        //testFetchCarrierInfo()
+       // testFetchCarrierInfo()
         // testFetchCopyright()
-            testFetchAllStations()
+          //  testFetchAllStations()
             
                }
     }
