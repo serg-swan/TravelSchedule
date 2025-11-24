@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct CarriersListView: View {
     // MARK: - Properties
     @Environment(\.dismiss) private var dismiss

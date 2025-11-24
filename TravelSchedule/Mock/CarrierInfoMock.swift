@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CarrierMockData {
+struct CarrierInfoMock {
     static let carriers: [CarrierInfo] = [
         CarrierInfo(name: "РЖД", logo: "RZD", transfer: "С пересадкой в Костроме", departureDate: "14 января", departureTime: "22:30", arrivalTime: "08:15", travelDuration: "20 часов", timeOfDay: .evening),
         CarrierInfo(name: "ФГК", logo: "FGK", transfer: nil, departureDate: "15 января", departureTime: "01:15", arrivalTime: "09:00", travelDuration: "9 часов", timeOfDay: .night),

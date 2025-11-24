@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct MockData {
+struct CityMock {
     static let cities: [City] = [
         City(name: "Москва", stations: [
             Station(name: "Курский вокзал"),

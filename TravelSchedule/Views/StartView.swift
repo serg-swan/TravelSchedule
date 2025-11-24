@@ -1,3 +1,11 @@
+//
+//  StartView.swift
+//  TravelSchedule
+//
+//  Created by Сергей Лебедь on 24.11.2025.
+//
+import SwiftUI
+
 struct StartView: View {
     @Bindable var vm: TravelViewModel
     @State private var path: [SelectionType] = []
